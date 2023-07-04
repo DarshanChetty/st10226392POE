@@ -1,5 +1,6 @@
 # st10226392POE
 poepart3
+
 Recipe Finder App
 Version 4.0.0
 Recipe Finder is a desktop application that allows users to search for recipes based on ingredients they have on hand. It also allows users to filter recipes based on dietary restrictions and create menus for the week.
@@ -39,4 +40,28 @@ SQLAlchemy: for database management
 Developer Info
 This application was developed by Darshan Chetty. For questions or technical support, please contact Darshan at st10226392@vcconnect.edu.za.
 Admin
-To contribute to this project, please submit a pull request on the GitHub repository. For any administrative inquiries, please contact the project manager at st10226392
+To contribute to this project, please submit a pull request on the GitHub repository. For any administrative inquiries, please contact the project manager at st10226392@vcconnect.edu.za.
+
+Changelog
+Version 1.0 (2023-07-04):
+Features include creating recipes, managing ingredients and steps, scaling quantities, resetting quantities, and clearing recipes.
+GUI built using Windows Presentation Foundation (WPF).
+Added colours to enhance the visual appeal of the GUI.
+Implemented a menu system for easy navigation.
+Utilized classes and methods effectively, including the use of properties.
+Used arrays and lists for managing collections.
+Added comments throughout the code for improved readability.
+Improved warning system for recipe calorie counts.
+
+Code Attribution
+This program was developed using the C# programming language and follows the object-oriented programming paradigm. It utilizes the Windows Presentation Foundation (WPF) framework to provide a graphical user interface (GUI) for a more intuitive user experience.
+
+To use the application, follow these steps:
+
+1.Open the program and navigate through the graphical user interface (GUI).
+2.Begin by creating a new recipe by clicking on the "New Recipe" button.
+3.Provide the necessary details for the recipe, including ingredients and steps, in the designated input fields.
+4.Once a recipe is created, you can manage it using various options available in the GUI.
+5.Use buttons or menus to access functions like scaling ingredient quantities, resetting quantities, or clearing a recipe.
+6.Follow the instructions and prompts displayed on the screen to interact with the program and manage your recipes.
+7.The GUI will show the total calorie count of each recipe, and if a recipe's total calorie count exceeds 300, the application will notify you.
